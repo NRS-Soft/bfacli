@@ -1,0 +1,20 @@
+{
+  "name": "bfacli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": "dist/index.js",
+  "scripts": {
+    "build": "tsc -b ."
+  },
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "ora": "^5.4.0",
+    "ts-node": "^9.1.1",
+    "web3": "^1.3.6"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.1",
+    "typescript": "^4.2.4"
+  }
+}
